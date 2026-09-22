@@ -1,69 +1,63 @@
 
-<header>
-    <div class="logo">VÉLORA LUXE</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VÉLORA LUXE | Luxury Fashion</title>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="men.html">Men</a>
-        <a href="women.html">Women</a>
-        <a href="shoes.html">Shoes</a>
-        <a href="bags.html">Bags</a>
-        <a href="accessories.html">Accessories</a>
-        <a href="new-arrivals.html">New Arrivals</a>
-        <a href="collections.html">Collections</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
 
-<section class="hero">
-    <div class="hero-content">
-        <p>THE ART OF LUXURY</p>
-        <h1>TIMELESS<br>ELEGANCE</h1>
-        <p>Discover our exclusive collection of modern luxury fashion.</p>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8f5ef;
+      color: #241c16;
+    }
 
-        <a href="collections.html" class="button">EXPLORE COLLECTION</a>
-    </div>
-</section>
+    /* HEADER */
+    header {
+      background: #241c16;
+      color: white;
+      padding: 20px 6%;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
 
-<section class="featured">
-    <h2>Featured Collections</h2>
+    .logo {
+      font-family: Georgia, serif;
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      white-space: nowrap;
+    }
 
-    <div class="cards">
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 22px;
+    }
 
-        <div class="card">
-            <div class="card-image">MEN'S COLLECTION</div>
-            <h3>Modern Gentleman</h3>
-            <a href="men.html">SHOP MEN</a>
-        </div>
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
 
-        <div class="card">
-            <div class="card-image">WOMEN'S COLLECTION</div>
-            <h3>Elegant Woman</h3>
-            <a href="women.html">SHOP WOMEN</a>
-        </div>
-
-        <div class="card">
-            <div class="card-image">ACCESSORIES</div>
-            <h3>Luxury Details</h3>
-            <a href="accessories.html">DISCOVER</a>
-        </div>
-
-    </div>
-</section>
-
-<section class="statement">
-    <p>VÉLORA LUXE</p>
-    <h2>Luxury Beyond Fashion</h2>
-    <a href="about.html" class="button">OUR STORY</a>
-</section>
-
-<footer>
-    <h2>VÉLORA LUXE</h2>
-    <p>Luxury fashion for a new generation.</p>
-    <p>© 2026 VÉLORA LUXE. All Rights Reserved.</p>
-</footer>
-
-</body>
-</html>
+    nav a:hover {
+      color: #b83b35;
+    }
 
